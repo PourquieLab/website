@@ -23,9 +23,7 @@ sections:
         latitude: '42.33539'
         longitude: '-71.10856'
       directions: Enter Hale Building and take the elevator to Floor 8
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      
       #appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
@@ -34,7 +32,7 @@ sections:
       #    link: 'https://discourse.gohugo.io'
     
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
     
       # Email form provider
       form:
