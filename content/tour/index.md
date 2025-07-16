@@ -17,7 +17,7 @@ sections:
             filters:
               brightness: 0.9
           position: right
-          color: '#666'
+          color: '#111'
       - title: Our in vitro models for somitogenesis
         content: '2.5D somitoids & 3D segmentoids'
         align: left
