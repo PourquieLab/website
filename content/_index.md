@@ -8,14 +8,15 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Pourquié
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The Pourquié laboratory is a world leader in vertebrate musculo-skeletal axis development, lead by [Olivier Pourquié](https://www.hsci.harvard.edu/people/olivier-pourqui%C3%A9-phd).
+        We are interested in the development of the vertebrate musculo-skeletal axis. Using chicken and mouse embryos as model systems, we combine developmental biology and genomic approaches to study patterning and differentiation of the precursors of muscles and vertebrae.
   
   - block: collection
     content:
