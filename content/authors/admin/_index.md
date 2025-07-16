@@ -59,6 +59,6 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Olivier Pourquié is the Frank Burr Mallory Professor of Pathology and Professor in the Department of Genetics at Harvard Medical School, and Professor of Pathology at the Brigham and Women’s Hospital. He was the director of the Institute for Genetics and Molecular and Cellular Biology (IGBMC) in France and before that a Howard Hughes Medical Institute Investigator at the Stowers Institute for Medical Research in Kansas City. He graduated as an engineer in France and trained with Nicole Le Douarin. He was the Editor in Chief of the journal Development from 2009-2018.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Pourquié authored more than 100 peer-reviewed publications. He is an elected member of the European Molecular Biology Organization and of the Academia Europea. His work on the segmentation clock that controls the periodicity of vertebrae was recognized as one of the milestones in developmental biology of the 20th century by Nature Magazine. In 2020, he was elected as President of the Society for Developmental Biology, and as a member of the National Academy of Sciences.
