@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: Welcome to the Pourquie group
-        content: 
+      - title: Metabolic regulation
+        content: Metabolic regulation of species-specific developmental rates
         align: center
         background:
           image:
@@ -28,8 +28,8 @@ sections:
               brightness: 0.9
           position: center
           color: '#555'
-      - title: neuromuscular differentiation
-        content: 'using stem cell'
+      - title: Neuromuscular differentiation
+        content: 'Using human stem cell'
         align: right
         background:
           image:
