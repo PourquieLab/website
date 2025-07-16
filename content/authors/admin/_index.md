@@ -56,7 +56,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigator
+  - Principal Investigators
 ---
 
 Olivier Pourquié is the Frank Burr Mallory Professor of Pathology and Professor in the Department of Genetics at Harvard Medical School, and Professor of Pathology at the Brigham and Women’s Hospital. He was the director of the Institute for Genetics and Molecular and Cellular Biology (IGBMC) in France and before that a Howard Hughes Medical Institute Investigator at the Stowers Institute for Medical Research in Kansas City. He graduated as an engineer in France and trained with Nicole Le Douarin. He was the Editor in Chief of the journal Development from 2009-2018.
