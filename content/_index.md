@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Pourquié
-        Research Group
+        
       image:
         filename: welcome.jpg
       text: |

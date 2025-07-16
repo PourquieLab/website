@@ -8,34 +8,34 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: Welcome to the Pourquie group
+        content: 
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: metabolicregulation.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.9
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Our in vitro models for somitogenesis
+        content: '2.5D somitoids & 3D segmentoids'
         align: left
         background:
           image:
             filename: contact.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.9
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: neuromuscular differentiation
+        content: 'using stem cell'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: pourquie_-_muscle_fiber_cells_-_article_0.jpg
             filters:
-              brightness: 0.5
+              brightness: 0.9
           position: center
           color: '#333'
         link:
