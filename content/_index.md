@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        
+        Welcome to our lab website!
       image:
         filename: welcome.jpg
       text: |
@@ -17,24 +17,7 @@ sections:
         The Pourquié laboratory is a world leader in vertebrate musculo-skeletal axis development, lead by [Olivier Pourquié](https://www.hsci.harvard.edu/people/olivier-pourqui%C3%A9-phd).
         We are interested in the development of the vertebrate musculo-skeletal axis. Using chicken and mouse embryos as model systems, we combine developmental biology and genomic approaches to study patterning and differentiation of the precursors of muscles and vertebrae.
   
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
+
   
   - block: markdown
     content:
@@ -58,7 +41,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: Latest papers
       text: ""
       count: 5
       filters:
