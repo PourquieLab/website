@@ -1,5 +1,5 @@
 ---
-title: Somitogenesis, Vertebrate formation, and Segmentation Clock
+title:  Musculoskeletal Lineage Differentiation
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,8 +12,8 @@ title: Somitogenesis, Vertebrate formation, and Segmentation Clock
 #  postcode: '94305'
 #  country: United States
 
-summary: In vivo and in vitro somitogenesis. 
-abstract: 'Mouse models, chick embryos, and human stem cell-derived somitoids (somite-like organoids), and segmentoids (trunk-like organoids).'
+summary: How somite-derived cells give rise to muscle, vertebrae, and dermis.
+abstract: 'Insights into regenerative medicine, muscular dystrophies, and skeletal defects.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
