@@ -1,5 +1,5 @@
 ---
-title: Our research interests
+title: Research interests
 
 # Listing view
 view: compact
