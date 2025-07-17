@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: metabolicregulation.jpg
+            filename: featured.jpg
             filters:
               brightness: 0.9
           position: right
