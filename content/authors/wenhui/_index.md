@@ -3,14 +3,14 @@
 title: Wenhui Tang, Ph.D.
 
 # Full Name (for SEO)
-first_name: Wenhi
+first_name: Wenhui
 last_name: Tang
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Postdoc
+role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
@@ -59,4 +59,5 @@ user_groups:
   - Postdoc
 ---
 
-Wenhui received her B.Eng. in Renewable Energy Engineering in 2018 from Xi’an Jiaotong University in China. She likes skiing, photography and cooking in her spare time.
+Wenhui received her PhD in Mechanical Engineering in 2024 from MIT. Her research interests include....
+She likes hiking, photography and cooking in her spare time.
