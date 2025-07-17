@@ -1,5 +1,5 @@
 ---
-title: Somitogenesis, Vertebrate formation, and Segmentation Clock
+title: Gene Regulatory Networks & Theoretical Modeling
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,12 +12,12 @@ title: Somitogenesis, Vertebrate formation, and Segmentation Clock
 #  postcode: '94305'
 #  country: United States
 
-summary: In vivo and in vitro somitogenesis. 
-abstract: 'Mouse models, chick embryos, and human stem cell-derived somitoids (somite-like organoids), and segmentoids (trunk-like organoids).'
+summary: Gene Regulatory Networks & Theoretical Modeling.
+abstract: 'Computational modeling of oscillator networks integrating multiple signaling pathways (Notch, Wnt, FGF) with collaborators'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: '2030-06-01T13:00:00Z'
+date: '2025-06-01'
 #date_end: '2030-06-01T15:00:00Z'
 #all_day: false
 

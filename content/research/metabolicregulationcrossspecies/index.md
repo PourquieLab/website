@@ -12,8 +12,8 @@ title: Comparing metabolic regulation across species
 #  postcode: '94305'
 #  country: United States
 
-summary: In vivo and in vitro somitogenesis. 
-abstract: 'Mouse models, chick embryos, and human stem cell-derived somitoids (somite-like organoids), and segmentoids (trunk-like organoids).'
+summary: Comparing metabolic regulation across species . 
+abstract: 'Explored evolutionary conservation and divergence of segmentation mechanisms across vertebrates (mice, chick, fish), revealing plasticity in oscillation networks .'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
