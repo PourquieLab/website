@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Wenhui Tang, Ph.D.
+title: Clément Bodineau, PhD
 
 # Full Name (for SEO)
-first_name: Wenhui
-last_name: Tang
+first_name: Clément
+last_name: Bodineau
 
 # Is this the primary user of the site?
 superuser: true
@@ -18,12 +18,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Mechanical Engineering, MIT
+bio: PhD in Metabolic Biochemistry, European Institute of Chemistry and Biology, University of Bordeaux, France. Under the supervision of Dr Raul V Duran
 
 interests:
   - Developmental Biology
-  - Active Matter
-  - Biophysics
+  - Spatial metabolomics
+  - Mass spectrometry
 
 
 
@@ -34,13 +34,11 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wtang11@bwh.harvard.edu'
+    link: 'mailto:cbodineau@bwh.harvard.edu'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=_Vr6LegAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/PourquieLab
+    link: https://scholar.google.com/citations?user=_Ci-VVQAAAAJ&hl=en&oi=sra
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #  - icon: cv
@@ -59,5 +57,4 @@ user_groups:
   - Postdoc
 ---
 
-Wenhui received her PhD in Mechanical Engineering in 2024 from MIT. Her research interests include....
-She likes hiking, photography and cooking in her spare time.
+I am a postdoctoral fellow in the labs of Olivier Pourquié and Nathalie Agar. My research focuses on the metabolism of the paraxial mesoderm during vertebrate axis development using mass spectrometry imaging, embryonic models, and stem cells. In the Agar lab, I am also investigating metabolic pathways involved in diffuse intrinsic pontine glioma (DIPG), a highly aggressive pediatric brain tumor. I am interested in combining developmental biology and cancer metabolism with high-resolution spatial analysis to uncover dynamic processes during development.

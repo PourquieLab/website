@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Wenhui Tang, Ph.D.
+title: Shuyao Kong, Ph.D.
 
 # Full Name (for SEO)
-first_name: Wenhui
-last_name: Tang
+first_name: Shuyao
+last_name: Kong
 
 # Is this the primary user of the site?
 superuser: true
@@ -18,12 +18,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Mechanical Engineering, MIT
+bio: Cornell University College of Agriculture and Life Sciences, Department of Plant Biology (Ph.D.), Tsinghua University School of Life Sciences, Department of Biological Science (B.S.)
 
 interests:
-  - Developmental Biology
-  - Active Matter
-  - Biophysics
+  - Cell fate determination
+  - Patterning
+  - Morphogenesis
 
 
 
@@ -34,13 +34,11 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wtang11@bwh.harvard.edu'
+    link: 'mailto:skong2@bwh.harvard.edu'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=_Vr6LegAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/PourquieLab
+    link: https://scholar.google.com/citations?user=7IlZEfIAAAAJ&hl=en&inst=7575085548378563675&oi=ao
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #  - icon: cv
@@ -59,5 +57,4 @@ user_groups:
   - Postdoc
 ---
 
-Wenhui received her PhD in Mechanical Engineering in 2024 from MIT. Her research interests include....
-She likes hiking, photography and cooking in her spare time.
+I am interested in how cells interact among each other to self-organize into complex and functional structures. As an undergraduate, I studied how the plant root apical meristem communicates with other plant tissues about nutrient availability, integrating this information to regulate root growth. During my PhD, I investigated how cells of the floral meristem transport auxin to create precisely positioned signaling maxima that guide floral organ initiation. Currently, as a postdoc, I am exploring how HOX genes mediate the recognition between spinal motoneurons and their muscle targets to form correct neuromuscular circuits, using in vitro human stem cell models. In my spare time, I enjoy playing ultimate frisbee and dragon boat racing. 

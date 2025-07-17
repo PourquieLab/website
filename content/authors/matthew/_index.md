@@ -1,29 +1,29 @@
 ---
 # Display name
-title: Wenhui Tang, Ph.D.
+title: Matthew White
 
 # Full Name (for SEO)
-first_name: Wenhui
-last_name: Tang
+first_name: Matthew
+last_name: White
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
+role: PhD student, Biological and Biomedical Sciences Program @Harvard Medical School
 
 # Organizations/Affiliations
 organizations:
-  - name: Harvard Medical School & Brigham and Women's Hospital
+  - name: Harvard Medical School 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Mechanical Engineering, MIT
+#bio: PhD in Mechanical Engineering, MIT
 
 interests:
-  - Developmental Biology
-  - Active Matter
-  - Biophysics
+  - Signaling
+  - Somitogenesis
+  - Tissue Patterning
 
 
 
@@ -34,13 +34,11 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wtang11@bwh.harvard.edu'
+    link: 'mailto:matthew_white@g.harvard.edu'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=_Vr6LegAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/PourquieLab
+    link: https://orcid.org/0000-0001-5195-1533
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #  - icon: cv
@@ -56,8 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoc
+  - Grad Students
 ---
 
-Wenhui received her PhD in Mechanical Engineering in 2024 from MIT. Her research interests include....
-She likes hiking, photography and cooking in her spare time.
+Matthew is a PhD candidate in the Biological and Biomedical Sciences program and a member of the Therapeutics Graduate Program at Harvard Medical School. In the lab, he uses stem cells to disentangle the regulatory network that governs human somitogenesis. Outside of the lab, he enjoys movies, soccer, and trying new restaurants around Boston.
