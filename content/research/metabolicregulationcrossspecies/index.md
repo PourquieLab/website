@@ -1,5 +1,5 @@
 ---
-title: Comparing metabolic regulation across species 
+title: xxxx
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,12 +12,12 @@ title: Comparing metabolic regulation across species
 #  postcode: '94305'
 #  country: United States
 
-summary: Comparing metabolic regulation across species . 
-abstract: 'Explored evolutionary conservation and divergence of segmentation mechanisms across vertebrates (mice, chick, fish), revealing plasticity in oscillation networks .'
+summary: xxxxxxx.
+abstract: 'xxxxxxx.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: '2030-06-01T13:00:00Z'
+date: '2025-07-01T13:00:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 #all_day: false
 

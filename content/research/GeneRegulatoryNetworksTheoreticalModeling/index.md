@@ -1,5 +1,5 @@
 ---
-title: Gene Regulatory Networks & Theoretical Modeling
+title: xxxx
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,12 +12,12 @@ title: Gene Regulatory Networks & Theoretical Modeling
 #  postcode: '94305'
 #  country: United States
 
-summary: Gene Regulatory Networks & Theoretical Modeling.
-abstract: 'Computational modeling of oscillator networks integrating multiple signaling pathways (Notch, Wnt, FGF) with collaborators'
+summary: xxxx
+abstract: 'xxxxxx'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-06-01'
+date: '2025-08-01'
 #date_end: '2030-06-01T15:00:00Z'
 #all_day: false
 

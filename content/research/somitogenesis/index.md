@@ -1,5 +1,5 @@
 ---
-title: Molecular Segmentation Clock & Somitogenesis
+title: xxxxxx
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,12 +12,12 @@ title: Molecular Segmentation Clock & Somitogenesis
 #  postcode: '94305'
 #  country: United States
 
-summary: Molecular Segmentation Clock & Somitogenesis. 
+summary: xxxxx
 abstract: 'Uncovered signaling interplay (Notch, Wnt, FGF) and the network dynamics maintaining rhythmic gene expression in presomitic mesoderm'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: '2030-06-01T13:00:00Z'
+date: '2025-06-01T13:00:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 #all_day: false
 

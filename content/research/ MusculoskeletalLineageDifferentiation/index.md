@@ -1,5 +1,5 @@
 ---
-title: Hox Genes & Axis Termination
+title: xxxx
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,12 +12,12 @@ title: Hox Genes & Axis Termination
 #  postcode: '94305'
 #  country: United States
 
-summary: Hox Genes & Axis Termination
-abstract: 'How posterior Hox gene activation (paralogs 9–13) progressively repress Wnt/FGF, slow body axis elongation, and determine somite number in chick embryos.'
+summary: xxxx
+abstract: 'xxxx'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
+date: '2025-07-01T13:00:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 #all_day: false
 
