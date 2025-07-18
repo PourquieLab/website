@@ -14,11 +14,13 @@ role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: Harvard Medical School & Brigham and Women's Hospital
+  - name: PhD in Mechanical Engineering, MIT
+          MS in Mechanical Engineering, MIT
+          BE in Energy and Power Engineering, Xi'an Jiaotong University, China
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Mechanical Engineering, MIT
+#bio: PhD in Mechanical Engineering, MIT
 
 interests:
   - Developmental Biology

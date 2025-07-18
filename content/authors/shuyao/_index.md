@@ -14,11 +14,12 @@ role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: Harvard Medical School & Brigham and Women's Hospital
+  - name: Cornell University College of Agriculture and Life Sciences, Department of Plant Biology (Ph.D.)
+      Tsinghua University School of Life Sciences, Department of Biological Science (B.S.)
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Cornell University College of Agriculture and Life Sciences, Department of Plant Biology (Ph.D.), Tsinghua University School of Life Sciences, Department of Biological Science (B.S.)
+#bio: Cornell University College of Agriculture and Life Sciences, Department of Plant Biology (Ph.D.), Tsinghua University School of Life Sciences, Department of Biological Science (B.S.)
 
 interests:
   - Cell fate determination

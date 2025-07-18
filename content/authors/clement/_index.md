@@ -14,11 +14,11 @@ role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: Harvard Medical School & Brigham and Women's Hospital
+  - name: PhD in Metabolic Biochemistry, European Institute of Chemistry and Biology, University of Bordeaux, France. Under the supervision of Dr Raul V Duran
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Metabolic Biochemistry, European Institute of Chemistry and Biology, University of Bordeaux, France. Under the supervision of Dr Raul V Duran
+#bio: PhD in Metabolic Biochemistry, European Institute of Chemistry and Biology, University of Bordeaux, France. Under the supervision of Dr Raul V Duran
 
 interests:
   - Developmental Biology
