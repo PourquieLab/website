@@ -14,7 +14,7 @@ role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: Cornell University College of Agriculture and Life Sciences, Department of Plant Biology (Ph.D.)
+  - name: Cornell University College of Agriculture and Life Sciences, Department of Plant Biology (Ph.D.);
       Tsinghua University School of Life Sciences, Department of Biological Science (B.S.)
     url: ''
 
