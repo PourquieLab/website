@@ -10,20 +10,20 @@ last_name: Bernheim
 superuser: true
 
 # Role/position
-role: research @Harvard Medical School & Brigham and Women's Hospital
+role: Research fellow @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: Harvard Medical School & Brigham and Women's Hospital
+  - name: M.D. @Sorbonne Université - Paris; PhD@Heart morphogenesis lab(Supervision by Sigolene Meilhac), Imagine Institute - Pasteur Institute Paris
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD in Mechanical Engineering, MIT
+bio: 
 
 interests:
-  - Developmental Biology
-  - Active Matter
-  - Biophysics
+  - Somite–heart Interactions
+  - Heart morphogenesis
+  - Developmental mechanisms of congenital heart Defect
 
 
 
@@ -34,13 +34,11 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wtang11@bwh.harvard.edu'
+    link: 'mailto:sbernheim@mgb.org'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=_Vr6LegAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/PourquieLab
+    link: https://scholar.google.com/citations?user=f-SUkC0AAAAJ&hl=fr
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #  - icon: cv
@@ -59,5 +57,4 @@ user_groups:
   - Visitors
 ---
 
-Wenhui received her PhD in Mechanical Engineering in 2024 from MIT. Her research interests include....
-She likes hiking, photography and cooking in her spare time.
+I'm a pediatric cardiologist with a research focus in cardiac embryology, aiming to understand the developmental mechanisms underlying congenital heart defects. In Olivier Pourquié’s lab, I study how somite asymmetry affects heart morphogenesis. I use mouse and chick models to study how the heart tube forms, and I also explore how these mechanisms are conserved in humans. My goal is to link developmental biology and clinical insight to improve our understanding and care of congenital heart disease.
