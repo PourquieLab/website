@@ -7,10 +7,10 @@ first_name: Segolene
 last_name: Bernheim
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
-role: 
+role: Research Fellow @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
