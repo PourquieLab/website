@@ -10,7 +10,7 @@ last_name: Bernheim
 superuser: false
 
 # Role/position
-role: PhD student, Biological and Biomedical Sciences Program @Harvard Medical School
+role: 
 
 # Organizations/Affiliations
 organizations:
@@ -21,7 +21,7 @@ organizations:
 #bio: PhD in Mechanical Engineering, MIT
 
 interests:
-  - Somite–heart interactions
+  - Somite heart interactions
   - Heart morphogenesis
   - Developmental mechanisms of congenital heart Defect
 
