@@ -16,7 +16,7 @@ role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 organizations:
   - name: PhD in Mechanical Engineering, MIT;
           MS in Mechanical Engineering, MIT;
-          BS, Xi'an Jiaotong University, China
+         
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -40,9 +40,7 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=_Vr6LegAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://tang-wenhui.github.io
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 #  - icon: cv
@@ -58,8 +56,8 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoc
+  - Postdocs
 ---
 
 I am generally interested in understanding the fundamental mechanism of how cells coordinate their behaviors in space and time to form 3D multicellular structures and perform higher-level biological functions, especially during embryogenesis. My current research applys my PhD expertise in cell mechanics and biophysics to understand the synchronization of segmentation clock, sorting behaviors between WT and HOXKO cells, and the pattern formation process in in vitro somitogenesis using somitoids and segmentoids.
-I enjoy hiking, photography, and frisbee in my spare time.
+I enjoy hiking and photography in my spare time.

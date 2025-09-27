@@ -7,7 +7,7 @@ first_name: Shuyao
 last_name: Kong
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
@@ -55,7 +55,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoc
+  - Postdocs
 ---
 
 I am interested in how cells interact among each other to self-organize into complex and functional structures. As an undergraduate, I studied how the plant root apical meristem communicates with other plant tissues about nutrient availability, integrating this information to regulate root growth. During my PhD, I investigated how cells of the floral meristem transport auxin to create precisely positioned signaling maxima that guide floral organ initiation. Currently, as a postdoc, I am exploring how HOX genes mediate the recognition between spinal motoneurons and their muscle targets to form correct neuromuscular circuits, using in vitro human stem cell models. In my spare time, I enjoy playing ultimate frisbee and dragon boat racing. 

@@ -7,7 +7,7 @@ first_name: Jong
 last_name: Gwan Lee
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: PhD student @Biological and Biomedical Sciences (BBS) program, Harvard Medical School

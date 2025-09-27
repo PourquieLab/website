@@ -54,7 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoc
+  - Postdocs
 ---
 
 I am a Helen Hay Whitney Fellow at Brigham and Women’s Hospital and Harvard Medical School, where I study the temporal dynamics of vertebrate development. My research combines advanced quantitative imaging, optogenetics, and dynamical systems modeling to uncover how transcriptional networks and biological rhythms control developmental tempo across species. Previously, I earned my Ph.D. in Physics at UC Berkeley, where I studied spatial patterning in fruit fly embryos.

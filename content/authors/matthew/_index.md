@@ -7,7 +7,7 @@ first_name: Matthew
 last_name: White
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: PhD student, Biological and Biomedical Sciences Program @Harvard Medical School
