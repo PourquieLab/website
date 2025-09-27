@@ -10,7 +10,7 @@ last_name: Gapon
 superuser: true
 
 # Role/position
-role: Lab manager
+role: Administration
 
 # Organizations/Affiliations
 organizations:
