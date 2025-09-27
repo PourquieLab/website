@@ -1,5 +1,5 @@
 ---
-title: xxxxxx
+title: Cellular and molecular dissection of the Segmentation Clock
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -13,7 +13,7 @@ title: xxxxxx
 #  country: United States
 
 summary: xxxxx
-abstract: 'Uncovered signaling interplay (Notch, Wnt, FGF) and the network dynamics maintaining rhythmic gene expression in presomitic mesoderm'
+abstract: 'cross-talk between cell metabolism and signaling in the control of patterning and cell fate during development of the musculo-skeletal system'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

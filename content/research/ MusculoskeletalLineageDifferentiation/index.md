@@ -1,5 +1,5 @@
 ---
-title: xxxx
+title: Differentiation of the paraxial mesoderm-derived lineages such as skeletal muscle lineages
 
 #event: Wowchemy Conference
 #event_url: https://example.org

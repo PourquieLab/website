@@ -1,5 +1,5 @@
 ---
-title: xxxx
+title: Development of therapeutic approaches to study human diseases of the musculo-skeletal axis
 
 #event: Wowchemy Conference
 #event_url: https://example.org
