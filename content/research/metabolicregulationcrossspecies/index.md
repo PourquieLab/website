@@ -1,5 +1,5 @@
 ---
-title: xxxx
+title: Metabolic regulation of somitogenesis cross species
 
 #event: Wowchemy Conference
 #event_url: https://example.org
