@@ -7,7 +7,7 @@ first_name: Jiaxi (Jake)
 last_name: Zhao
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Postdoc @Brigham and Women’s Hospital / Harvard Medical School (Helen Hay Whitney Fellow)
