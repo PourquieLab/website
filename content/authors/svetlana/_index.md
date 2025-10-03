@@ -10,7 +10,7 @@ last_name: Gapon
 superuser: false
 
 # Role/position
-role: Administration
+role: Senior Technician
 
 # Organizations/Affiliations
 organizations:
