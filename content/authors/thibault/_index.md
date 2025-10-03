@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Thibault Pebrier
+title: Thibault Pebrier, Ph.D.
 
 # Full Name (for SEO)
 first_name: Thibault 
