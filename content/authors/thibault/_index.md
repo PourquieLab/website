@@ -14,7 +14,7 @@ role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: PhD of Université Paris Saclay :  “ Purinergic receptor P2X4, autophagy and hepatic steatosis” from 1193 Unit, team “Physiopathogénèse et traitement des maladies hépatique”, thesis supervisor and team leader--Thierry Tordjmann
+  - name: PhD of Université Paris Saclay
          
     url: ''
 
