@@ -1,5 +1,5 @@
 ---
-title: Cellular and molecular dissection of the Segmentation Clock
+title: Vertebrate embryonic segmentation
 
 #event: Wowchemy Conference
 #event_url: https://example.org
@@ -12,8 +12,8 @@ title: Cellular and molecular dissection of the Segmentation Clock
 #  postcode: '94305'
 #  country: United States
 
-summary: xxxxx
-abstract: 'cross-talk between cell metabolism and signaling in the control of patterning and cell fate during development of the musculo-skeletal system'
+summary: How segmental pattern is established during embryonic development has been actively studied for over two centuries, yet the underlying cellular and molecular processes remain poorly understood.
+abstract: 'In vertebrates, skeletal muscles, the axial skeleton and several other derivatives such as brown adipose tissue and dorsal dermis originate from the embryonic paraxial mesoderm. This tissue forms during gastrulation, generating two bilaterally symmetrical bands of mesenchyme known as presomitic mesoderm or PSM. The PSM condenses at its anterior extremity to periodically form somites in an anterior-posterior sequence. Somites provide a blueprint for the organization of segmented anatomical modules, such as the vertebrae in the spine. This type of segmental organization has long been recognized as an obvious common feature of the body plan of vertebrates and invertebrates. How this segmental pattern is established during embryonic development has been actively studied for over two centuries, yet the underlying cellular and molecular processes remain poorly understood.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
