@@ -10,15 +10,15 @@ last_name: Bouchekioua
 superuser: false
 
 # Role/position
-role: First cycle of Medical School at Claude Bernard Lyon 1 University, France. Currently MD-PhD student at University of Lille, Predosctoral Research Fellow at Brigham and Women's Hospital, and Visiting Graduate Student at Harvard University.
+role: MD-PhD student at University of Lille, Predosctoral Research Fellow at Brigham and Women's Hospital, and Visiting Graduate Student at Harvard University.
 
 # Organizations/Affiliations
 organizations:
-  - name: Bachelor in Biosciences and Master of Biosciences and Health at École Normale Supérieure de Lyon. 
+  - name: Bachelor in Biosciences and Master of Biosciences and Health at École Normale Supérieure de Lyon. First cycle of Medical School at Claude Bernard Lyon 1 University, France. 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Bachelor in Biosciences and Master of Biosciences and Health at École Normale Supérieure de Lyon. 
+bio: Bachelor in Biosciences and Master of Biosciences and Health at École Normale Supérieure de Lyon. First cycle of Medical School at Claude Bernard Lyon 1 University, France. 
 
 interests:
   - Duchenne Muscular Dystrophy
