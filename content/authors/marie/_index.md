@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Svetlana Gapon, Ph.D.
+title: Marie Knockaert, Ph.D.
 
 # Full Name (for SEO)
-first_name: Svetlana
-last_name: Gapon
+first_name: Marie 
+last_name:  Knockaert
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Senior Technician
+role: Lab manager
 
 # Organizations/Affiliations
 organizations:
@@ -31,7 +31,7 @@ bio:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:sgapon@bwh.harvard.edu'
+    link: 'mailto: mknockaert@bwh.harvard.edu'
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -51,4 +51,3 @@ user_groups:
   - Administration
 ---
 
-Svetlana graduated from Kazan University in Russia with the B.S. degree, majoring in Animal Physiology. She received her Ph.D. in Neurosciences from the Russian Academy of Science in 1981 and worked as a Research Scientist at the Sechenov Institute in St. Petersburg. She worked for many years in the laboratory of David Clapham at Boston Children’s Hospital, and in 2017 she joined the laboratory of Dr. Olivier Pourquie at Brigham and Women’s Hospital where she is helping with running the day-to-day lab operations .
