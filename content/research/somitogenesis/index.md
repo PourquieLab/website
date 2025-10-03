@@ -12,12 +12,12 @@ title: Vertebrate embryonic segmentation
 #  postcode: '94305'
 #  country: United States
 
-summary: How segmental pattern is established during embryonic development has been actively studied for over two centuries, yet the underlying cellular and molecular processes remain poorly understood.
+summary: In vertebrates, skeletal muscles, the axial skeleton and several other derivatives such as brown adipose tissue and dorsal dermis originate from the embryonic paraxial mesoderm. This tissue forms during gastrulation, generating two bilaterally symmetrical bands of mesenchyme known as presomitic mesoderm or PSM. The PSM condenses at its anterior extremity to periodically form somites in an anterior-posterior sequence. Somites provide a blueprint for the organization of segmented anatomical modules, such as the vertebrae in the spine. This type of segmental organization has long been recognized as an obvious common feature of the body plan of vertebrates and invertebrates. How this segmental pattern is established during embryonic development has been actively studied for over two centuries, yet the underlying cellular and molecular processes remain poorly understood.
 abstract: 'In vertebrates, skeletal muscles, the axial skeleton and several other derivatives such as brown adipose tissue and dorsal dermis originate from the embryonic paraxial mesoderm. This tissue forms during gastrulation, generating two bilaterally symmetrical bands of mesenchyme known as presomitic mesoderm or PSM. The PSM condenses at its anterior extremity to periodically form somites in an anterior-posterior sequence. Somites provide a blueprint for the organization of segmented anatomical modules, such as the vertebrae in the spine. This type of segmental organization has long been recognized as an obvious common feature of the body plan of vertebrates and invertebrates. How this segmental pattern is established during embryonic development has been actively studied for over two centuries, yet the underlying cellular and molecular processes remain poorly understood.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-06-01T13:00:00Z'
+date: '2025-10-01T13:00:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 #all_day: false
 
