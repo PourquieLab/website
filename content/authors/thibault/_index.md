@@ -1,21 +1,20 @@
 ---
 # Display name
-title: Wenhui Tang, Ph.D.
+title: Thibault Pebrier
 
 # Full Name (for SEO)
-first_name: Wenhui
-last_name: Tang
+first_name: Thibault 
+last_name: Pebrier
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
 
 # Organizations/Affiliations
 organizations:
-  - name: PhD in Mechanical Engineering, MIT (2024)
-          MS in Mechanical Engineering, MIT (2020)
+  - name: PhD of Université Paris Saclay :  “ Purinergic receptor P2X4, autophagy and hepatic steatosis” from 1193 Unit, team “Physiopathogénèse et traitement des maladies hépatique”, thesis supervisor and team leader--Thierry Tordjmann
          
     url: ''
 
@@ -23,9 +22,9 @@ organizations:
 #bio: PhD in Mechanical Engineering, MIT
 
 interests:
-  - Cell and Tissue Mechanics
-  - Developmental Biology
-  - Biophysics, Active Matter
+  - Muscle stem cells
+  - Immune cloaking
+  - Humanized model
 
 
 
@@ -59,5 +58,4 @@ user_groups:
   - Postdocs
 ---
 
-I am generally interested in understanding the fundamental mechanism of how cells coordinate their behaviors in space and time to form 3D multicellular structures and perform higher-level biological functions, especially during embryogenesis. My current research applys my PhD expertise in cell mechanics and biophysics to understand the synchronization of segmentation clock, sorting behaviors between WT and HOXKO cells, and the pattern formation process in in vitro somitogenesis using somitoids and segmentoids.
-I enjoy hiking and photography in my spare time.
+I am a postdoctoral researcher developing new strategies for cell-based therapies in Duchenne Muscular Dystrophy (DMD). My research has two main directions: first, I am working toward establishing humanized mouse models of DMD to evaluate the regenerative potential of cell therapies in vivo. Second, I aim to generate muscle stem cells that can evade immune rejection and persist long term after transplantation. To achieve these goals, I use human induced pluripotent stem cells (hiPSCs), differentiate them into muscle stem cells in vitro, and graft them into mice. Outside the lab, I enjoy social dancing and playing chess.
