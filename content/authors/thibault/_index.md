@@ -35,10 +35,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wtang11@bwh.harvard.edu'
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=_Vr6LegAAAAJ&hl=en
+    link: 'mailto:tpebrier@bwh.harvard.edu'
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
