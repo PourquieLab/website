@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Svetlana Gapon, Ph.D.
+title: Svetlana Gapon
 
 # Full Name (for SEO)
 first_name: Svetlana

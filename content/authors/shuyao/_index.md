@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Shuyao Kong, Ph.D.
+title: Shuyao Kong
 
 # Full Name (for SEO)
 first_name: Shuyao

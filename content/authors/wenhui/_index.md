@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Wenhui Tang, Ph.D.
+title: Wenhui Tang
 
 # Full Name (for SEO)
 first_name: Wenhui

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Clément Bodineau, PhD
+title: Clément Bodineau
 
 # Full Name (for SEO)
 first_name: Clément
