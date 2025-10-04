@@ -51,7 +51,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Graduate Students
 ---
 
 I am a PhD student in the Biological and Biomedical Sciences (BBS) program at Harvard Medical School. My research focuses on the regulation of LR asymmetry in the paraxial mesoderm, mainly using chick embryo and human iPSC. Outside the lab, I enjoy cooking and watching movies. 

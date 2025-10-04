@@ -54,7 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Graduate Students
 ---
 
 Matthew is a PhD candidate in the Biological and Biomedical Sciences program and a member of the Therapeutics Graduate Program at Harvard Medical School. In the lab, he uses stem cells to disentangle the regulatory network that governs human somitogenesis. Outside of the lab, he enjoys movies, soccer, and trying new restaurants around Boston.

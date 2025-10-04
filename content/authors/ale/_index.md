@@ -3,8 +3,8 @@
 title: Alejandra Rodriguez de la Rosa
 
 # Full Name (for SEO)
-first_name: Jong
-last_name: Gwan Lee
+first_name: Alejandra 
+last_name: Rodriguez de la Rosa
 
 # Is this the primary user of the site?
 superuser: false

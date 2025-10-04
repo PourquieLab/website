@@ -54,7 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Graduate Students
 ---
 
 Amine Bouchekioua is an MD-PhD student at the University of Lille, a visiting graduate researcher at Harvard Medical School, and a predoctoral research fellow at Brigham and Women’s Hospital. His research focuses on cell therapy, developmental biology, and regenerative therapy. By generating human iPSC-derived brown adipose organoids and muscle stem cells, he develops innovative models of metabolic disorders and Duchenne muscular dystrophy, with the aim of advancing new strategies for regenerative medicine and future cell-based therapies.
