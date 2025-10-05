@@ -1,16 +1,17 @@
 ---
 # Display name
-title: Lu Yan
+title: Ernesto Lujan
 
 # Full Name (for SEO)
-first_name: Lu
-last_name: Yan
+first_name: Ernesto
+last_name: Lujan
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
 role: Former postdoc
+
 
 
 

@@ -1,16 +1,17 @@
 ---
 # Display name
-title: Lu Yan
+title: Ziad Al Tanoury
 
 # Full Name (for SEO)
-first_name: Lu
-last_name: Yan
+first_name: Ziad Al
+last_name: Tanoury
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
 role: Former postdoc
+
 
 
 

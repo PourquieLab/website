@@ -1,16 +1,17 @@
 ---
 # Display name
-title: Lu Yan
+title: Taiki Nakajima
 
 # Full Name (for SEO)
-first_name: Lu
-last_name: Yan
+first_name: Taiki
+last_name: Nakajima
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
 role: Former postdoc
+
 
 
 
