@@ -54,7 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Graduate Students
 ---
 
 Alejandra is a PhD candidate in the Biological and Biomedical Sciences (BBS) program in the lab of Olivier Pourquié. She received her undergraduate degree in Human Biology from Pompeu Fabra University and later her master’s degree in Multidisciplinary Research at the Barcelona Institute of Science and Technology. With a background in muscle biology, her thesis research focuses on the usage of pluripotent stem cells as a tool to understand human muscle development.
