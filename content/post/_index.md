@@ -1,11 +1,15 @@
 ---
-title: Latest News
+title: News
+type: landing
 
-# Listing view
-view: compact
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  - block: section_list
+    content:
+      title: News
+      # List every news item in content/post/, newest first
+      section: post
+    design:
+      # Banner image (must be in assets/media/)
+      banner: contact.jpg
+      show_date: true
 ---
