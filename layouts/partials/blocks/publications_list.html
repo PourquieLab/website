@@ -1,0 +1,60 @@
+{{/*
+  Custom "publications_list" block for the Pourquié Lab Publications page.
+  Layout inspired by kleinlab.bio/publications: image banner, then a simple list where each
+  entry is a linked title followed by "Authors (Year). Journal, volume, pages."
+
+  Entries come from data/publications.yaml (newest first). Each entry supports:
+    title, authors, year, journal, details, url
+*/}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $c := $block.content }}
+{{ $d := $block.design }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<div class="team-page pubs-page">
+  {{ $banner := "" }}
+  {{ with $d.banner }}
+    {{ with resources.Get (printf "media/%s" .) }}
+      {{ $banner = (.Resize "1920x webp q80").RelPermalink }}
+    {{ else }}
+      {{ warnf "publications_list block: banner image `%s` not found in assets/media/" . }}
+    {{ end }}
+  {{ end }}
+  <header class="team-banner"{{ with $banner }} style="background-image: url('{{ . }}');"{{ end }}>
+    <div class="team-wrap">
+      <h1>{{ $c.title | default "Publications" | markdownify }}</h1>
+    </div>
+  </header>
+
+  <div class="team-wrap team-body">
+    {{ with $c.text }}<div class="pubs-intro">{{ . | $page.RenderString }}</div>{{ end }}
+
+    {{ $pubs := site.Data.publications | default slice }}
+    {{ $group := $d.group_by_year | default true }}
+    {{ $last_year := "" }}
+
+    <div class="pubs-list">
+    {{ range $pubs }}
+      {{ $year := string .year }}
+      {{ if and $group (ne $year $last_year) }}
+        <h2 class="pubs-year" id="y{{ $year }}">{{ $year }}</h2>
+        {{ $last_year = $year }}
+      {{ end }}
+      <article class="pub">
+        <h3 class="pub-title">
+          {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .title | markdownify }}{{ if .url }}</a>{{ end }}
+        </h3>
+        <p class="pub-meta">
+          {{ with .authors }}{{ . | markdownify }} {{ end }}({{ $year }}).
+          {{ with .journal }}<em>{{ . | markdownify }}</em>{{ end }}{{ with .details }}, {{ . | markdownify }}{{ end }}.
+        </p>
+      </article>
+    {{ end }}
+    </div>
+  </div>
+</div>
