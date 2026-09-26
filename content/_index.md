@@ -5,46 +5,31 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: home
     content:
-      title: |
-        Welcome to our lab website!
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The Pourquié laboratory is a world leader in vertebrate musculo-skeletal axis development, lead by [Olivier Pourquié](https://www.hsci.harvard.edu/people/olivier-pourqui%C3%A9-phd).
-        We are interested in the development of the vertebrate musculo-skeletal axis. Using chicken and mouse embryos as model systems, we combine developmental biology and genomic approaches to study patterning and differentiation of the precursors of muscles and vertebrae.
-  
+      hero:
+        # Background image (must be in assets/media/)
+        image: featured.jpg
+        kicker: Harvard Medical School · Brigham and Women's Hospital
+        title: Pourquié Lab
+        subtitle: We study how the vertebrate musculoskeletal axis forms, from the segmentation clock to muscles and vertebrae.
+        buttons:
+          - label: Our research
+            url: research/
+          - label: Meet the team
+            url: people/
+      about:
+        title: Welcome
+        # Photo shown next to the text (must be in assets/media/)
+        image: welcome.jpg
+        text: |
+          The Pourquié laboratory is a world leader in vertebrate musculoskeletal axis development, led by [Olivier Pourquié](https://www.hsci.harvard.edu/people/olivier-pourqui%C3%A9-phd).
 
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: hms_logo.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+          We are interested in the development of the vertebrate musculoskeletal axis. Using chicken and mouse embryos as model systems, we combine developmental biology and genomic approaches to study patterning and differentiation of the precursors of muscles and vertebrae.
+      research_title: Research
+      news_title: Latest news
+      # How many news items to show
+      news_count: 3
+      # Logo strip at the bottom (must be in assets/media/)
+      logo: hms_logo.jpg
 ---
