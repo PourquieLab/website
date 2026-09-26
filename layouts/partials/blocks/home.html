@@ -1,0 +1,96 @@
+{{/*
+  Custom "home" block for the Pourquié Lab homepage, matching the Team / Publications /
+  News / Research pages. Sections: hero, about (text + photo), research topics,
+  latest news, affiliation logo. All text and images are set in content/_index.md.
+*/}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $c := $block.content }}
+{{ $d := $block.design }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<div class="team-page home-page">
+
+  {{/* ---------- Hero ---------- */}}
+  {{ $hero := "" }}
+  {{ with $c.hero.image }}{{ with resources.Get (printf "media/%s" .) }}{{ $hero = (.Resize "1600x webp q85").RelPermalink }}{{ end }}{{ end }}
+  <header class="home-hero"{{ with $hero }} style="background-image: url('{{ . }}');"{{ end }}>
+    <div class="team-wrap">
+      <div class="home-hero-text">
+        {{ with $c.hero.kicker }}<p class="home-kicker">{{ . }}</p>{{ end }}
+        <h1>{{ $c.hero.title | default site.Title }}</h1>
+        {{ with $c.hero.subtitle }}<p class="home-hero-sub">{{ . | markdownify }}</p>{{ end }}
+        {{ with $c.hero.buttons }}
+          <p class="home-buttons">
+            {{ range . }}<a class="home-btn" href="{{ .url | relURL }}">{{ .label }}</a>{{ end }}
+          </p>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  {{/* ---------- About ---------- */}}
+  {{ with $c.about }}
+  <section class="team-wrap home-section-pad home-about">
+    <div class="home-about-text">
+      <h2 class="team-group-title">{{ .title | default "About the lab" }}</h2>
+      <div class="list-item-summary">{{ .text | $page.RenderString }}</div>
+    </div>
+    {{ with .image }}{{ with resources.Get (printf "media/%s" .) }}
+      {{ $p := .Resize "1000x webp q80" }}
+      <div class="home-about-img"><img src="{{ $p.RelPermalink }}" width="{{ $p.Width }}" height="{{ $p.Height }}" alt="The Pourquié Lab" loading="lazy"></div>
+    {{ end }}{{ end }}
+  </section>
+  {{ end }}
+
+  {{/* ---------- Research topics ---------- */}}
+  {{ $topics := (where site.RegularPages "Section" "research").ByDate.Reverse }}
+  {{ if $topics }}
+  <section class="home-band">
+    <div class="team-wrap home-section-pad">
+      <div class="home-head">
+        <h2 class="team-group-title">{{ $c.research_title | default "Research" }}</h2>
+        <a class="home-more" href="{{ "research/" | relURL }}">All research →</a>
+      </div>
+      <div class="home-topics">
+        {{ range $topics }}
+          {{ $f := (.Resources.ByType "image").GetMatch "*featured*" }}
+          <a class="home-topic" href="{{ .RelPermalink }}">
+            <div class="home-topic-img">{{ with $f }}{{ $t := .Resize "600x webp q80" }}<img src="{{ $t.RelPermalink }}" alt="" loading="lazy">{{ end }}</div>
+            <h3>{{ .Title }}</h3>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ---------- Latest news ---------- */}}
+  {{ $news := first ($c.news_count | default 3) (where site.RegularPages "Section" "post").ByDate.Reverse }}
+  {{ if $news }}
+  <section class="team-wrap home-section-pad">
+    <div class="home-head">
+      <h2 class="team-group-title">{{ $c.news_title | default "Latest news" }}</h2>
+      <a class="home-more" href="{{ "post/" | relURL }}">All news →</a>
+    </div>
+    <div class="home-news">
+      {{ range $news }}
+        <a class="home-news-item" href="{{ .RelPermalink }}">
+          <p class="list-item-date">{{ .Date.Format "January 2, 2006" }}</p>
+          <h3>{{ .Title }}</h3>
+        </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ---------- Affiliation logo ---------- */}}
+  {{ with $c.logo }}{{ with resources.Get (printf "media/%s" .) }}
+    {{ $l := .Resize "700x webp q85" }}
+    <div class="home-logo"><img src="{{ $l.RelPermalink }}" width="{{ $l.Width }}" height="{{ $l.Height }}" alt="Harvard Medical School" loading="lazy"></div>
+  {{ end }}{{ end }}
+</div>
