@@ -5,22 +5,28 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: people
+  - block: team
     content:
-      title: Meet the Team
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      title: Team
+      # Groups are shown in this order. Add people to a group via `user_groups`
+      # in their profile (content/authors/<name>/_index.md).
       user_groups:
-          - Principal Investigators
-          - Postdocs
-          - Graduate Students
-          - Administration
-          - Visitors
-          - Alumni
+        - Principal Investigators
+        - Postdocs
+        - Graduate Students
+        - Administration
+        - Visitors
+        - Alumni
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: false
-      show_role: true
-      show_social: true
+      # Banner image (must be in assets/media/)
+      banner: pourquie_-_muscle_fiber_cells_-_article_0.jpg
+      # Groups shown with a large photo next to the full bio
+      featured_groups:
+        - Principal Investigators
+      # Groups shown as a simple text list (name + role)
+      compact_groups:
+        - Alumni
+      show_bio: true
 ---
