@@ -1,0 +1,119 @@
+{{/*
+  Custom "team" block for the Pourquié Lab People page.
+  Layout inspired by kleinlab.bio/team:
+    - full-width image banner with the page title
+    - featured groups (e.g. PI): large photo beside name, title and full bio
+    - regular groups: 3-column grid of square photos, name, role, bio, text links
+    - compact groups (e.g. Alumni): simple list of name + current position
+
+  Data comes from each person's profile in content/authors/<name>/_index.md
+  (title, role, organizations, social, user_groups, avatar.jpg, and the bio text below the front matter).
+*/}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $c := $block.content }}
+{{ $d := $block.design }}
+
+{{ $featured := $d.featured_groups | default (slice "Principal Investigators") }}
+{{ $compact := $d.compact_groups | default (slice "Alumni") }}
+{{ $show_bio := $d.show_bio | default true }}
+{{ $sort_by := partial "blox-core/functions/get_sort_by_parameter" ($c.sort_by | default "Params.last_name") }}
+{{ $sort_order := cond ($c.sort_ascending | default true) "asc" "desc" }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<div class="team-page">
+
+  {{/* ---------- Banner ---------- */}}
+  {{ $banner := "" }}
+  {{ with $d.banner }}
+    {{ with resources.Get (printf "media/%s" .) }}
+      {{ $banner = (.Resize "1920x webp q80").RelPermalink }}
+    {{ else }}
+      {{ warnf "team block: banner image `%s` not found in assets/media/" . }}
+    {{ end }}
+  {{ end }}
+  <header class="team-banner"{{ with $banner }} style="background-image: url('{{ . }}');"{{ end }}>
+    <div class="team-wrap">
+      <h1>{{ $c.title | default "Team" | markdownify }}</h1>
+      {{ with $c.subtitle }}<p class="team-banner-sub">{{ . | markdownify }}</p>{{ end }}
+    </div>
+  </header>
+
+  <div class="team-wrap team-body">
+    {{ with $c.text }}<div class="team-intro">{{ . | $page.RenderString }}</div>{{ end }}
+
+    {{ range $gi, $group := $c.user_groups }}
+      {{ $people := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice $group) }}
+      {{ $people = sort $people $sort_by $sort_order }}
+      {{ if $people }}
+      {{ $mode := cond (in $featured $group) "featured" (cond (in $compact $group) "compact" "grid") }}
+
+      <section class="team-group team-group--{{ $mode }}" id="{{ $group | urlize }}">
+        <h2 class="team-group-title">{{ $group }}</h2>
+
+        {{ if eq $mode "compact" }}
+          {{/* ----- Alumni: plain list ----- */}}
+          <ul class="team-alumni">
+            {{ range $people }}
+              {{ $link := "" }}{{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}{{ $link = .RelPermalink }}{{ end }}
+              <li><strong>{{ .Title }}</strong>{{ with .Params.role }}, {{ . | markdownify }}{{ end }}</li>
+            {{ end }}
+          </ul>
+
+        {{ else }}
+          <div class="{{ if eq $mode "featured" }}team-featured-list{{ else }}team-grid{{ end }}">
+          {{ range $people }}
+            {{ $person := . }}
+            {{ $link := "" }}{{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}{{ $link = .RelPermalink }}{{ end }}
+            {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+            {{ $size := cond (eq $mode "featured") "720x720" "600x600" }}
+
+            <article class="team-card{{ if eq $mode "featured" }} team-card--featured{{ end }}">
+              <div class="team-photo">
+                {{ if $avatar }}
+                  {{ $img := $avatar.Fill (printf "%s Smart webp q80" $size) }}
+                  <a href="{{ $link }}"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" alt="{{ .Title }}"></a>
+                {{ else }}
+                  {{ $initials := "" }}
+                  {{ range first 2 (split (replaceRE `,.*$` "" .Title) " ") }}{{ $initials = print $initials (substr . 0 1) }}{{ end }}
+                  <a href="{{ $link }}" class="team-photo-placeholder" aria-label="{{ .Title }}"><span>{{ $initials }}</span></a>
+                {{ end }}
+              </div>
+
+              <div class="team-text">
+                <h3 class="team-name"><a href="{{ $link }}">{{ .Title }}</a></h3>
+                {{ with .Params.role }}<p class="team-role">{{ . | markdownify }}</p>{{ end }}
+                {{ if eq $mode "featured" }}
+                  {{ range .Params.organizations }}<p class="team-role">{{ .name }}</p>{{ end }}
+                {{ end }}
+
+                {{ if and $show_bio (trim (plainify .Content) " \n") }}
+                  <div class="team-bio">{{ .Content }}</div>
+                {{ end }}
+
+                {{ with .Params.social }}
+                  <p class="team-links">
+                    {{ range . }}
+                      {{ $labels := dict "envelope" "Email" "google-scholar" "Google Scholar" "github" "GitHub" "cv" "CV" "orcid" "ORCID" "twitter" "Twitter" "x-twitter" "X" "linkedin" "LinkedIn" "bluesky" "Bluesky" "researchgate" "ResearchGate" "globe" "Website" "link" "Website" }}
+                      {{ $label := index $labels .icon | default (humanize .icon) }}
+                      {{ $href := .link }}
+                      {{ $ext := in (slice "http" "https") (urls.Parse $href).Scheme }}
+                      {{ if not (urls.Parse $href).Scheme }}{{ $href = relURL $href }}{{ end }}
+                      <a href="{{ $href | safeURL }}"{{ if $ext }} target="_blank" rel="noopener"{{ end }}>{{ $label }}</a>
+                    {{ end }}
+                  </p>
+                {{ end }}
+              </div>
+            </article>
+          {{ end }}
+          </div>
+        {{ end }}
+      </section>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
