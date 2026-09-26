@@ -1,0 +1,219 @@
+// ============================================================
+// Team page (layouts/partials/blocks/team.html)
+// Style inspired by kleinlab.bio/team
+// ============================================================
+
+.wg-team.home-section { padding: 0 !important; }
+// Let the team block span the full page width (banner edge to edge)
+.wg-team.home-section > .container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.team-page {
+  --team-ink: #0f1b2a;
+  --team-muted: #5b6776;
+  --team-heading: #0b4a78;
+  --team-accent: #1a6fae;
+  --team-rule: #e3e8ee;
+  --team-placeholder: #e9eff5;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--team-ink);
+  background: #fff;
+}
+
+.dark .team-page {
+  --team-ink: #e6ebf1;
+  --team-muted: #9aa7b6;
+  --team-heading: #8cc4f0;
+  --team-accent: #6fb3ea;
+  --team-rule: #2c3643;
+  --team-placeholder: #1f2833;
+  background: transparent;
+}
+
+.team-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  @media (max-width: 575px) { padding: 0 16px; }
+}
+
+// ---------- Banner ----------
+.team-banner {
+  position: relative;
+  min-height: 260px;
+  display: flex;
+  align-items: flex-end;
+  padding: 90px 0 44px;
+  background-color: #0a1420;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(5,12,22,.35) 0%, rgba(5,12,22,.75) 100%);
+  }
+  @media (max-width: 575px) {
+    min-height: 170px;
+    padding: 56px 0 28px;
+  }
+  .team-wrap { position: relative; width: 100%; }
+  h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    letter-spacing: .01em;
+    color: #fff;
+    margin: 0;
+  }
+  .team-banner-sub {
+    margin: .5rem 0 0;
+    max-width: 640px;
+    font-weight: 300;
+    color: rgba(255,255,255,.85);
+  }
+}
+
+.team-body {
+  padding-top: 56px;
+  padding-bottom: 96px;
+  @media (max-width: 575px) { padding-top: 16px; padding-bottom: 64px; }
+}
+.team-intro { max-width: 760px; margin-bottom: 24px; color: var(--team-muted); }
+
+// ---------- Groups ----------
+.team-group {
+  padding: 40px 0 16px;
+  & + & { border-top: 1px solid var(--team-rule); margin-top: 32px; }
+}
+
+.team-group-title {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  font-size: 2.1rem;
+  color: var(--team-heading);
+  margin: 0 0 32px;
+}
+
+// ---------- Cards ----------
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 56px 40px;
+  @media (max-width: 991px) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 575px) { grid-template-columns: 1fr; gap: 44px; }
+}
+
+.team-photo {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: var(--team-placeholder);
+  margin-bottom: 20px;
+
+  a, img { display: block; width: 100%; height: 100%; }
+  img {
+    object-fit: cover;
+    transition: transform .5s ease;
+  }
+  a:hover img { transform: scale(1.03); }
+}
+
+.team-photo-placeholder {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  span {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .04em;
+    color: var(--team-accent);
+    opacity: .7;
+  }
+}
+
+.team-name {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  font-size: 1.55rem;
+  line-height: 1.25;
+  margin: 0 0 4px;
+  a { color: var(--team-accent) !important; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+}
+
+.team-role {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  color: var(--team-muted);
+  margin: 0 0 2px;
+}
+
+.team-bio {
+  margin-top: 14px;
+  font-size: .95rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--team-ink);
+  p { margin: 0 0 .8em; }
+  p:last-child { margin-bottom: 0; }
+}
+
+.team-links {
+  margin: 14px 0 0;
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  a {
+    color: var(--team-accent) !important;
+    text-decoration: none;
+    margin-right: 18px;
+    border-bottom: 1px solid transparent;
+    transition: border-color .2s;
+  }
+  a:hover { border-bottom-color: currentColor; }
+}
+
+// ---------- Featured (PI) ----------
+.team-featured-list > .team-card + .team-card { margin-top: 56px; }
+.team-card--featured {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 48px;
+  align-items: start;
+  .team-photo { margin-bottom: 0; }
+  .team-name { font-size: 1.9rem; color: var(--team-heading); a { color: var(--team-heading) !important; } }
+  .team-role { font-size: 1.2rem; }
+  .team-bio { font-size: 1rem; }
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+// ---------- Alumni ----------
+.team-alumni {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 48px;
+  @media (max-width: 767px) { columns: 1; }
+  li {
+    break-inside: avoid;
+    padding: 7px 0;
+    font-size: .95rem;
+    font-weight: 300;
+    color: var(--team-muted);
+  }
+  strong { font-weight: 600; color: var(--team-ink); }
+}
