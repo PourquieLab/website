@@ -1,0 +1,62 @@
+{{/*
+  Custom "section_list" block used by the News and Research pages.
+  Same look as the Team and Publications pages: image banner, then one row per page
+  (picture on the left, title / date / summary on the right, "Read more" link).
+
+  content.section: which content folder to list (e.g. "post" for News, "research" for Research)
+  design.banner:     banner image in assets/media/
+  design.show_date:  show each item's date (true for News)
+  design.summary:    "summary" = use the page's `summary` field / text before <!--more-->
+*/}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $c := $block.content }}
+{{ $d := $block.design }}
+{{ $show_date := $d.show_date | default false }}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<div class="team-page list-page">
+  {{ $banner := "" }}
+  {{ with $d.banner }}
+    {{ with resources.Get (printf "media/%s" .) }}
+      {{ $banner = (.Resize "1920x webp q80").RelPermalink }}
+    {{ else }}
+      {{ warnf "section_list block: banner image `%s` not found in assets/media/" . }}
+    {{ end }}
+  {{ end }}
+  <header class="team-banner"{{ with $banner }} style="background-image: url('{{ . }}');"{{ end }}>
+    <div class="team-wrap">
+      <h1>{{ $c.title | default $page.Title | markdownify }}</h1>
+    </div>
+  </header>
+
+  <div class="team-wrap team-body">
+    {{ with $c.text }}<div class="pubs-intro">{{ . | $page.RenderString }}</div>{{ end }}
+
+    {{ $items := where site.RegularPages "Section" $c.section }}
+    {{ $items = $items.ByDate.Reverse }}
+
+    <div class="list-items">
+    {{ range $items }}
+      {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
+      <article class="list-item{{ if not $img }} list-item--noimg{{ end }}">
+        {{ if $img }}
+          {{ $thumb := $img.Resize "800x webp q80" }}
+          <a class="list-item-img" href="{{ .RelPermalink }}"><img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" alt="{{ .Title }}"></a>
+        {{ end }}
+        <div class="list-item-text">
+          {{ if $show_date }}<p class="list-item-date">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+          <h2 class="list-item-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ $summary := .Params.summary | default .Summary }}
+          {{ with $summary }}<div class="list-item-summary">{{ . | $page.RenderString }}</div>{{ end }}
+          <p class="team-links"><a href="{{ .RelPermalink }}">Read more</a></p>
+        </div>
+      </article>
+    {{ end }}
+    </div>
+  </div>
+</div>
