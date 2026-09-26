@@ -1,14 +1,17 @@
 ---
 title: Publications
+type: landing
 
-subtitle: Please visit Olivier’s [Google Scholar](https://scholar.google.com/citations?user=x8lyoPUAAAAJ&hl=en) for a full list of publications!
-
-
-# Listing view
-view: citation
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  - block: publications_list
+    content:
+      title: Publications
+      # The papers themselves are listed in data/publications.yaml
+      text: |
+        Publications since 2015. For the complete list, see Olivier's [Google Scholar](https://scholar.google.com/citations?user=x8lyoPUAAAAJ&hl=en).
+    design:
+      # Banner image (must be in assets/media/)
+      banner: featured.jpg
+      # Show a year heading above each year's papers
+      group_by_year: true
 ---
