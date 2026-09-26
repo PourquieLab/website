@@ -217,3 +217,63 @@
   }
   strong { font-weight: 600; color: var(--team-ink); }
 }
+
+// ============================================================
+// Publications page (layouts/partials/blocks/publications_list.html)
+// Style inspired by kleinlab.bio/publications
+// ============================================================
+
+.wg-publications-list.home-section { padding: 0 !important; }
+.wg-publications-list.home-section > .container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pubs-intro {
+  max-width: 760px;
+  margin-bottom: 8px;
+  color: var(--team-muted);
+  a { color: var(--team-accent) !important; }
+}
+
+.pubs-list { max-width: 980px; }
+
+.pubs-year {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: var(--team-heading);
+  margin: 48px 0 4px;
+}
+
+.pub {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--team-rule);
+}
+
+.pub-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.45;
+  margin: 0 0 6px;
+  a {
+    color: var(--team-accent) !important;
+    text-decoration: underline;
+    text-decoration-color: rgba(26, 111, 174, .35);
+    text-underline-offset: 3px;
+    transition: text-decoration-color .2s;
+  }
+  a:hover { text-decoration-color: currentColor; }
+  @media (max-width: 575px) { font-size: 1.1rem; }
+}
+
+.pub-meta {
+  margin: 0;
+  font-size: .92rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--team-ink);
+}
