@@ -17,7 +17,7 @@ sections:
         - Administration
         - Visitors
         - Alumni
-      sort_by: Params.last_name
+      sort_by: Params.first_name
       sort_ascending: true
     design:
       # Banner image (must be in assets/media/)
