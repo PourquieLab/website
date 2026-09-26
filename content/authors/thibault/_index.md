@@ -10,7 +10,7 @@ last_name: Pebrier
 superuser: false
 
 # Role/position
-role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
+role: Former postdoc
 
 # Organizations/Affiliations
 organizations:
@@ -52,7 +52,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdocs
+  - Alumni
 ---
 
 I am a postdoctoral researcher developing new strategies for cell-based therapies in Duchenne Muscular Dystrophy (DMD). My research has two main directions: first, I am working toward establishing humanized mouse models of DMD to evaluate the regenerative potential of cell therapies in vivo. Second, I aim to generate muscle stem cells that can evade immune rejection and persist long term after transplantation. To achieve these goals, I use human induced pluripotent stem cells (hiPSCs), differentiate them into muscle stem cells in vitro, and graft them into mice. Outside the lab, I enjoy social dancing and playing chess.
