@@ -29,4 +29,18 @@ sections:
       compact_groups:
         - Alumni
       show_bio: true
+      # Display order within each group. Use the folder name from content/authors/<folder>.
+      # Anyone not listed here appears after, sorted by first name.
+      order:
+        - kongju
+        - kana
+        - shuyao
+        - gauthier
+        - jiaxizhao
+        - wenhui
+        - amine
+        - matthew
+        - ale
+        - svetlana
+        - amandawild
 ---
