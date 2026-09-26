@@ -10,7 +10,7 @@ last_name: Bodineau
 superuser: false
 
 # Role/position
-role: Postdoc @Harvard Medical School & Brigham and Women's Hospital
+role: Former postdoc
 
 # Organizations/Affiliations
 organizations:
@@ -54,7 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdocs
+  - Alumni
 ---
 
 I am a postdoctoral fellow in the labs of Olivier Pourquié and Nathalie Agar. My research focuses on the metabolism of the paraxial mesoderm during vertebrate axis development using mass spectrometry imaging, embryonic models, and stem cells. In the Agar lab, I am also investigating metabolic pathways involved in diffuse intrinsic pontine glioma (DIPG), a highly aggressive pediatric brain tumor. I am interested in combining developmental biology and cancer metabolism with high-resolution spatial analysis to uncover dynamic processes during development.
