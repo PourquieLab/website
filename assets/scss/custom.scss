@@ -347,3 +347,172 @@
   p { margin: 0 0 .8em; }
   p:last-child { margin-bottom: 0; }
 }
+
+// ============================================================
+// Homepage (layouts/partials/blocks/home.html)
+// ============================================================
+
+.wg-home.home-section { padding: 0 !important; }
+.wg-home.home-section > .container {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-hero {
+  position: relative;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  color: #fff;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,.92) 0%, rgba(0,0,0,.7) 45%, rgba(0,0,0,.05) 100%);
+  }
+  .team-wrap { position: relative; width: 100%; }
+  h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.8rem, 6vw, 4.6rem);
+    line-height: 1.05;
+    color: #fff;
+    margin: 0 0 18px;
+  }
+  @media (max-width: 767px) {
+    min-height: 420px;
+    background-size: cover;
+    &::before { background: rgba(0,0,0,.65); }
+  }
+}
+.home-hero-text { max-width: 620px; }
+.home-kicker {
+  margin: 0 0 14px;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.75);
+}
+.home-hero-sub {
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(255,255,255,.9);
+  margin: 0;
+}
+.home-buttons { margin: 32px 0 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.home-btn {
+  display: inline-block;
+  padding: 11px 22px;
+  border: 1px solid rgba(255,255,255,.7);
+  color: #fff !important;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: background .2s, color .2s;
+  &:hover { background: #fff; color: #000 !important; }
+}
+
+.home-section-pad { padding-top: 80px; padding-bottom: 80px; @media (max-width: 575px) { padding-top: 56px; padding-bottom: 56px; } }
+
+.home-about {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: 56px;
+  align-items: center;
+  .team-group-title { margin-bottom: 20px; }
+  .list-item-summary { font-size: 1.05rem; a { color: var(--team-accent) !important; } }
+  @media (max-width: 767px) { grid-template-columns: 1fr; gap: 28px; }
+}
+.home-about-img img { display: block; width: 100%; height: auto; }
+
+.home-band { background: #f4f6f9; }
+.dark .home-band { background: rgba(255,255,255,.03); }
+
+.home-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+  .team-group-title { margin: 0; }
+}
+.home-more {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--team-accent) !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.home-topics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  @media (max-width: 991px) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 575px) { grid-template-columns: 1fr; }
+}
+.home-topic {
+  display: block;
+  text-decoration: none !important;
+  h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: var(--team-heading);
+    margin: 16px 0 0;
+    transition: color .2s;
+  }
+  &:hover h3 { color: var(--team-accent); }
+}
+.home-topic-img {
+  aspect-ratio: 4 / 3;
+  background: #fff;
+  overflow: hidden;
+  img { width: 100%; height: 100%; object-fit: contain; transition: transform .5s ease; }
+}
+.home-topic:hover .home-topic-img img { transform: scale(1.03); }
+
+.home-news {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  @media (max-width: 767px) { grid-template-columns: 1fr; gap: 0; }
+}
+.home-news-item {
+  display: block;
+  padding-top: 18px;
+  border-top: 2px solid var(--team-heading);
+  text-decoration: none !important;
+  h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 1.35rem;
+    line-height: 1.35;
+    color: var(--team-ink);
+    margin: 0;
+    transition: color .2s;
+  }
+  &:hover h3 { color: var(--team-accent); }
+  @media (max-width: 767px) { padding: 18px 0 24px; border-top-width: 1px; }
+}
+
+.home-logo {
+  background: #000;
+  padding: 36px 16px;
+  text-align: center;
+  img { display: block; margin: 0 auto; max-width: 360px; width: 100%; height: auto; }
+}
