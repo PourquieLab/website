@@ -10,7 +10,7 @@ last_name: Bernheim
 superuser: true
 
 # Role/position
-role: Research fellow @Harvard Medical School & Brigham and Women's Hospital
+role: Former research fellow
 
 # Organizations/Affiliations
 organizations:
@@ -54,7 +54,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Visitors
+  - Alumni
 ---
 
 I'm a pediatric cardiologist with a research focus in cardiac embryology, aiming to understand the developmental mechanisms underlying congenital heart defects. In Olivier Pourquié’s lab, I study how somite asymmetry affects heart morphogenesis. I use mouse and chick models to study how the heart tube forms, and I also explore how these mechanisms are conserved in humans. My goal is to link developmental biology and clinical insight to improve our understanding and care of congenital heart disease.
