@@ -49,6 +49,16 @@
     {{ range $gi, $group := $c.user_groups }}
       {{ $people := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice $group) }}
       {{ $people = sort $people $sort_by $sort_order }}
+      {{/* Optional custom order: `design.order` lists profile folder names (content/authors/<folder>).
+           Listed people come first in that order; anyone not listed follows, sorted by `sort_by`. */}}
+      {{ with $d.order }}
+        {{ $ordered := slice }}
+        {{ range $name := . }}
+          {{ range $people }}{{ if eq (path.Base .File.Dir) $name }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}
+        {{ end }}
+        {{ range $people }}{{ if not (in $ordered .) }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}
+        {{ $people = $ordered }}
+      {{ end }}
       {{ if $people }}
       {{ $mode := cond (in $featured $group) "featured" (cond (in $compact $group) "compact" "grid") }}
 
