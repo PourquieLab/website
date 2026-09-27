@@ -59,4 +59,4 @@ user_groups:
   - Postdocs
 ---
 
-My research asks how mechanics and signaling combine to pattern the embryo. Focusing on somitogenesis, I combine single-cell experiments, quantitative analysis with physical modeling to understand how tissue mechanics, cell motility, and signaling crosstalk control segmentation clock synchrony and somite formation. Previously, I did my PhD at MIT MechE, where I gained expertise in biophysics, solid mechanics, and active matter. I enjoy hiking and photography in my spare time.
+My research asks how mechanics and signaling combine to pattern the embryo. Focusing on somitogenesis, I combine in vitro experiments, quantitative analysis with physical modeling to understand how tissue mechanics, cell motility, and signaling crosstalk control segmentation clock synchrony and somite formation. Previously, I did my PhD at MIT MechE, where I gained expertise in biophysics, solid mechanics, and active matter. I enjoy hiking and photography in my spare time.
