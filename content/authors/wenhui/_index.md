@@ -59,5 +59,4 @@ user_groups:
   - Postdocs
 ---
 
-I am generally interested in understanding the fundamental mechanism of how cells coordinate their behaviors in space and time to form 3D multicellular structures and perform higher-level biological functions, especially during embryogenesis. My current research applys my PhD expertise in cell mechanics and biophysics to understand the synchronization of segmentation clock, sorting behaviors between WT and HOXKO cells, and the pattern formation process in in vitro somitogenesis using somitoids and segmentoids.
-I enjoy hiking and photography in my spare time.
+My research asks how mechanics and signaling combine to pattern the embryo. Focusing on somitogenesis, I combine single-cell experiments, quantitative analysis with physical modeling to understand how tissue mechanics, cell motility, and signaling crosstalk control segmentation clock synchrony and somite formation. I enjoy hiking and photography in my spare time.
